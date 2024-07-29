@@ -185,9 +185,7 @@ CronJob.from({
               parse_mode: "HTML",
             });
           });
-        } else {
-
-        }
+        } 
       } catch (error) {
         console.log(error.message);
       }
